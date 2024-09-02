@@ -9,7 +9,7 @@ const app =express();
 app.use(express.json());
 app.use(express.static("public"));
 
-const {PORT, CORS_ORIGIN} = process.env;
+const {PORT, CORS_ORIGIN } = process.env;
 app.use(cors({origin: CORS_ORIGIN}));
 
 app.route("/register").get((req,res)=>{
@@ -23,5 +23,5 @@ app.listen(PORT, ()=>{
 })
 
 app.get('/',function(req,res){
-  res.send('This is my response.');
+  res.send('Welcome.');
 })
