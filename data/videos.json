@@ -293,18 +293,25 @@
       }
     ]
   },
-
   {
-    "id": "034f390a-1f7c-4fab-8b09-fce3082748a1",
+    "id": "3f7fda3b-ba11-4b61-b476-cf6cdbe0d0e0",
     "title": "ddd",
     "channel": "Katarina Musladin",
     "image": "http://localhost:8080/images/Upload-video-preview.jpg",
-    "description": "dd",
-    "views": "0",
-    "likes": "0",
-    "duration": "7:21",
+    "description": "ddd",
+    "views": "100",
+    "likes": "100",
+    "duration": "1:2",
     "video": "http://localhost:8080/videos/BrainStation_Sample_Video.mp4",
-    "timeStamp": 1725318614785,
-    "comments": []
+    "timeStamp": 1725320701871,
+    "comments": [
+      {
+        "id": "7ba106bf-e74a-4c21-b59e-c485a30eea45",
+        "name": "Katarina Musladin",
+        "comment": "Thank God my code works finally!",
+        "likes": 0,
+        "timestamp": 1700633862000
+      }
+    ]
   }
 ]
