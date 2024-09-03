@@ -10,6 +10,9 @@ const incompletePostError = {
   requiredFields: ["title", "description"],
 };
 
+const timeStamp = Date.now();
+    console.log("Current Timestamp:", timeStamp); 
+
 const readVideosData = () =>
   JSON.parse(fs.readFileSync("./data/videos.json", "utf8"));
 
@@ -49,7 +52,7 @@ router.route("/")
         Math.random() * 60
       )}`,
       video: "http://localhost:8080/videos/BrainStation_Sample_Video.mp4",
-      timeStamp: Date.now(),
+      timeStamp: timeStamp,
       comments: [ {
         "id": "7ba106bf-e74a-4c21-b59e-c485a30eea45",
         "name": "Katarina Musladin",
